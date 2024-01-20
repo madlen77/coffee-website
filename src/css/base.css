@@ -1,9 +1,5 @@
 body {
-  background: grey;
-
-  @media (min-width: 768px) {
-    color: red;
-  }
+  font-family: 'Roboto'
 }
 
 main {
@@ -11,8 +7,6 @@ main {
   max-width: 1440px;
 
   & div {
-    color: yellow;
-
     @media (min-width: 768px) {
       color: var(--div-color);
     }
@@ -26,4 +20,12 @@ img {
 
 h2 {
   font-size: var(--h2-font-size);
+}
+
+footer{
+  background-color: var(--anthrazit);
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  padding-right: 20%;
 }

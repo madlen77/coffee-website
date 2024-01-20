@@ -1,0 +1,19 @@
+.info {
+    display: inline-block;
+    color: var(--anthrazit);
+}
+
+.info-ort, .info-zeit {
+    display: inline-block;
+}
+
+
+.info-plant {
+    float: left;
+    max-width: 50%;
+}
+
+.info-coffee {
+    float: right;
+    max-width:50%;
+}

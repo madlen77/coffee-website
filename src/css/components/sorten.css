@@ -1,0 +1,12 @@
+.sorten {
+    color:var(--white);
+    background-color: var(--anthrazit);
+}
+
+.sorten-container{
+    display: flex;
+}
+
+.sorten-kaffee{
+    margin: 0.5rem;
+}

@@ -1,3 +1,7 @@
 @import "variables.css";
 @import "base.css";
 @import "components/hero.css";
+@import "components/info.css";
+@import "components/sorten.css";
+@import "components/footer.css";
+
