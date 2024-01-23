@@ -10,3 +10,13 @@
 .sorten-kaffee{
     margin: 0.5rem;
 }
+
+.sack {
+    background-image: url(/images/FEND-Coffee-bags-2.png);
+    color: var(--white);
+    text-align: center;
+}
+
+.schaufel{
+    stroke: black;
+}

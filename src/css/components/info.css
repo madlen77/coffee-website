@@ -1,19 +1,30 @@
 .info {
-    display: inline-block;
+    /* display: inline-block; */
     color: var(--anthrazit);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 1rem 6.25rem 1rem 6.25rem;
+    padding: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    h2{
+        margin: 0;
+    }
+
 }
 
-.info-ort, .info-zeit {
-    display: inline-block;
+.info-text{
+    align-self: flex-start;
+    margin: 0;
 }
-
 
 .info-plant {
-    float: left;
-    max-width: 50%;
+    width: 38.25rem;
+    margin-right: 7.625rem;
 }
 
 .info-coffee {
-    float: right;
-    max-width:50%;
+    width: 37.938rem;
 }

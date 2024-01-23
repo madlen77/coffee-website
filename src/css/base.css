@@ -1,16 +1,13 @@
 body {
-  font-family: 'Roboto'
+  font-family: 'Roboto';
+  font-size: 1.125rem;
+  margin: 0;
 }
+
 
 main {
   margin: 0 auto;
   max-width: 1440px;
-
-  & div {
-    @media (min-width: 768px) {
-      color: var(--div-color);
-    }
-  }
 }
 
 img {
@@ -28,4 +25,8 @@ footer{
   display: flex;
   justify-content: space-around;
   padding-right: 20%;
+}
+
+p{
+  max-width: 50ch;
 }

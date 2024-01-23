@@ -1,39 +1,95 @@
 .hero {
   color: white;
-  position: relative;
-  background-image: url("/images/coffee.jpg");
-  height: 65vh;
-  background-repeat: no-repeat;
+  position: relative; 
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url("/images/coffee.jpg"), lightgray 50% / cover no-repeat;
+  height: 75vh;
+  background-position: center;
+  @media(min-width:992px){
+    height: 65vh;
+  }
+}
+.hero-inhalt{
+
+  @media(min-width: 992px){
+    position: absolute;
+    top: 38%;
+    right: 50%;
+    transform: translate(70%,-50%);
+    z-index: 10;
+    text-align: center;
+  }
 }
 
 .hero-nav {
-  position: absolute;
-  width:100%;
-  display: flex;
+  @media(min-width: 992px){
+    position: absolute;
+    width:100%;
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+  }
 }
 
 .hero-logo {
-  padding: 62,5% 0;
+  @media(min-width: 992px){
+    margin-left: 6.44rem;
+  }
 }
 
 .hero-title {
-  position: absolute;
-  top: 38%;
-  right: 50%;
-  transform: translate(50%,-50%);
-  z-index: 10;
-  font-weight: var(h-font-weight);
+  @media(min-width: 992px){
+    font-weight: var(h-font-weight);
+    font-size: 6rem;
+    margin-bottom: auto;
+  }
 }
 
 .hero-subtitle {
-  position: absolute;
-  top: 55%;
-  right: 50%;
-  transform: translate(50%,-50%);
-  z-index: 10;
-  font-weight: 900;
+  @media(min-width: 992px){
+    font-weight: 900;
+    margin-top: auto;
+    margin-bottom: 9.313rem;
+  }
 }
 
-.hero-img {
-  z-index: 5;
+.hero-button {
+  justify-content: center;
+  padding: 15px 50px;
+  border-radius: 5px;
+  background-color: var(--anthrazit);
+  @media(min-width: 992px){
+    font-size: 0.875rem;
+  }
+}
+
+.hero-cafe{
+  display:none;
+  @media(min-width: 992px){
+    display: inline-block;
+    margin-left: 50.188rem;
+    margin-right: 4.125rem;
+  }
+}
+
+.hero-shop{
+  display: none;
+  @media(min-width: 992px){
+    display: inline-block;
+    margin-left: 4.313rem;
+    margin-right: 2.063rem;
+  }
+}
+
+.hero-herkunft {
+  display: none;
+  @media(min-width: 992px){
+    display: inline-block;
+  }
+}
+
+.hero-shop-icon {
+  display: none;
+  @media(min-width: 992px){
+    display: block;
+  }
 }
